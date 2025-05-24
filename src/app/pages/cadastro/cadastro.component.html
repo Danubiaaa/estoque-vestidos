@@ -1,0 +1,31 @@
+
+<button (click)="voltar()">Voltar</button>
+
+
+<h2>Cadastrar Vestido</h2>
+
+<form (ngSubmit)="cadastrar()">
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <label>
+      Nome:
+      <input type="text" [(ngModel)]="vestido.nome" name="nome" required>
+    </label>
+
+    <label>
+      Tamanho:
+      <input type="text" [(ngModel)]="vestido.tamanho" name="tamanho" required>
+    </label>
+
+    <label>
+      Cor:
+      <input type="text" [(ngModel)]="vestido.cor" name="cor" required>
+    </label>
+
+    <label>
+      Qtd:
+      <input type="number" [(ngModel)]="vestido.qtd" name="qtd" required>
+    </label>
+
+    <button type="submit">Cadastrar</button>
+  </div>
+</form>

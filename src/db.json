@@ -1,0 +1,9 @@
+{
+  "users": [
+    { "id": 1, "username": "admin", "email": "admin@example.com", "password": "password" }
+  ],
+  "vestidos": [
+    { "id": 1, "nome": "Vestido de Festa Azul", "tamanho": "M", "cor": "Azul", "preco": 350.00, "quantidade": 5 },
+    { "id": 2, "nome": "Vestido Casual Floral", "tamanho": "P", "cor": "Branco", "preco": 120.50, "quantidade": 12 }
+  ]
+}
