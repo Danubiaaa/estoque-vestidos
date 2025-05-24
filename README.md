@@ -1,59 +1,86 @@
-# EstoqueVestidos
+# Sistema de Gestãob Estoque de Vestidos 👗
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+## 📖 Descrição
 
-## Development server
+Este sistema tem como objetivo realizar o cadastro, listagem, edição e exclusão de vestidos, facilitando a organização e controle de estoque para lojas ou eventos.
 
-To start a local development server, run:
+O sistema foi desenvolvido como parte da avaliação da disciplina de "front-end" utilizando **Angular**.
+
+---
+
+## ✅ Requisitos Funcionais
+
+- ✅ Cadastro de vestidos com nome, tamanho, cor e quantidade.
+- ✅ Listagem de todos os vestidos cadastrados.
+- ✅ Edição de informações dos vestidos.
+- ✅ Exclusão de vestidos.
+- ✅ Visualização de perfil do usuário logado.
+- ✅ Sistema de navegação entre páginas: Home, Cadastro, Listagem e Perfil.
+- ✅ Botão de voltar em todas as páginas.
+- ✅ Sistema de autenticação fictícia com login.
+
+---
+
+## ✅ Instruções de Instalação e Uso
+
+1️⃣ **Pré-requisitos:**
+
+- Node.js e npm instalados.
+- Angular CLI instalado.
 
 ```bash
+npm install -g @angular/cli
+2️⃣ Clonar o repositório:
+
+bash
+Copiar
+Editar
+git clone <https://github.com/Danubiaaa/estoque-vestidos.git>
+3️⃣ Instalar as dependências:
+
+bash
+Copiar
+Editar
+cd estoque-vestidos
+npm install
+4️⃣ Executar o sistema:
+
+bash
+Copiar
+Editar
 ng serve
-```
+Acesse no navegador:
+➡️ http://localhost:4200
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+5️⃣ Como usar:
 
-## Code scaffolding
+Na tela de Login, insira nome e e-mail fictícios e clique em Entrar.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Acesse o Home e navegue entre:
 
-```bash
-ng generate component component-name
-```
+Cadastro de Vestidos, incluir novos vestidos
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Listagem de Vestidos, para ver os vestidos que tem
 
-```bash
-ng generate --help
-```
+Perfil
 
-## Building
+Cada página possui um botão de Voltar para facilitar a navegação.
 
-To build the project run:
+✅ Tecnologias Utilizadas
+Angular
 
-```bash
-ng build
-```
+TypeScript
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+HTML5 e CSS3
 
-## Running unit tests
+Bootstrap (opcional, caso usado)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+✅ Projeto feito por aluno(a)
+Nome Danúbia Pascoal Da Silva
 
-```bash
-ng test
-```
+✅ Status do Projeto
+✅ Concluído.
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+✅ Autor
+Prof. Leonardo Lucena
+Disciplina: front end
