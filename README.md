@@ -84,3 +84,57 @@ Nome Danúbia Pascoal Da Silva
 ✅ Autor
 Prof. Leonardo Lucena
 Disciplina: front end
+
+evoluçao do projeto para os 70%: da atividade
+Funcionalidades Implementadas
+✅ 1. tres novas telas significativas:
+Histórico de Movimentações:
+Tela que exibe, de forma organizada, todas as movimentações realizadas, com data, hora e informações detalhadas, consumindo dados do estado gerenciado pelo NgRx.
+
+Dashboard de Estatísticas:
+Tela que apresenta um painel com informações resumidas sobre os vestidos, como total cadastrado e distribuição por categorias. Inclui gráficos gerados dinamicamente a partir dos dados do estado, agregando valor ao sistema com visualizações intuitivas.
+
+Notificaçao de estoque Baixo
+
+tela que volta com informaçao de que o estoque esta abaixo ou zerado, informaçao dada assim q a aba e acionada com mensagem rapida.
+
+✅ 2. Gerenciamento de Estado com NgRx:
+Store configurada com reducers e actions.
+
+Selectores criados para extrair dados do estado (selectAllVestidos, selectVestidosPorCategoria, selectLoading e selectError).
+
+Actions: implementadas ações de loadVestidos, loadVestidosSuccess, loadVestidosFailure.
+
+Reducer: controla loading, sucesso e erro.
+
+Effects (se utilizados): integração assíncrona com backend.
+
+✅ 3. Roteamento entre páginas:
+Configuração de rotas utilizando RouterModule.
+
+Navegação entre Login, Home, Histórico, Dashboard e outras telas.
+
+Possibilidade de adicionar Route Guards para proteger áreas restritas.
+
+✅ 4. Serviços com Injeção de Dependência:
+AuthService: controle de autenticação.
+
+VestidoService: integração com backend para CRUD de vestidos.
+
+Todos os serviços criados como @Injectable e consumidos via constructor.
+
+✅ 5. Validação de Formulários:
+Implementadas validações utilizando ngModel com atributos required, minlength e pattern.
+
+Exibição de mensagens de erro conforme o estado de validação dos inputs.
+
+✅ 6. Estilização:
+Utilização de CSS por componente, promovendo encapsulamento e organização.
+
+Aplicação de cores e efeitos visuais.
+
+  como CSS puro
+
+
+
+
